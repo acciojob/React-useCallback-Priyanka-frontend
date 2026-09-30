@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import UseCallbackComp from "./components/App";
 
-
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <UseCallbackComp />,
+  document.getElementById("root")
+);
